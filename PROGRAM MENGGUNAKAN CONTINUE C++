@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int jumlah=0;
+    cout<<"Jumlah : ";cin>>jumlah;
+    int i  = 1;
+    while(i <= jumlah){
+        if ( i == 5) {
+        	continue;
+		}
+        cout<<i<<endl;
+        i++;
+
+    }
+
+    return 0;
+}
